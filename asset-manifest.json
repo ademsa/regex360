@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/regex360/static/css/main.62ce770a.chunk.css",
+    "main.js": "/regex360/static/js/main.c06c102f.chunk.js",
+    "main.js.map": "/regex360/static/js/main.c06c102f.chunk.js.map",
+    "runtime-main.js": "/regex360/static/js/runtime-main.d7dd5fa9.js",
+    "runtime-main.js.map": "/regex360/static/js/runtime-main.d7dd5fa9.js.map",
+    "static/js/2.51fb8631.chunk.js": "/regex360/static/js/2.51fb8631.chunk.js",
+    "static/js/2.51fb8631.chunk.js.map": "/regex360/static/js/2.51fb8631.chunk.js.map",
+    "index.html": "/regex360/index.html",
+    "precache-manifest.2571acc9e893cad50503c9ce17b2a2b5.js": "/regex360/precache-manifest.2571acc9e893cad50503c9ce17b2a2b5.js",
+    "static/css/main.62ce770a.chunk.css.map": "/regex360/static/css/main.62ce770a.chunk.css.map",
+    "static/js/2.51fb8631.chunk.js.LICENSE.txt": "/regex360/static/js/2.51fb8631.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7dd5fa9.js",
+    "static/js/2.51fb8631.chunk.js",
+    "static/css/main.62ce770a.chunk.css",
+    "static/js/main.c06c102f.chunk.js"
+  ]
+}

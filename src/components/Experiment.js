@@ -308,6 +308,7 @@ export default class Experiment extends React.Component {
       ...prevState,
       pattern: recipes[recipeId].pattern,
       flags: recipes[recipeId].flags,
+      text: recipes[recipeId].text,
       message: "Copied pattern and flags successfully.",
       messageLevel: "success"
     }));

@@ -14,7 +14,6 @@ export default function Nav() {
                                         <Link to="/">
                                             <img src="/regex360/logo.svg" alt="logo" />
                                         </Link>
-                                        <span className="tag is-primary is-light is-rounded is-normal ml-2">BETA</span>
                                     </div>
                                 </div>
                                 <div className="navbar-end has-text-centered-mobile has-text-centered-tablet">

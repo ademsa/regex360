@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/regex360/static/css/main.cbceb3dc.css",
+    "main.js": "/regex360/static/js/main.29075dbd.js",
+    "index.html": "/regex360/index.html",
+    "main.cbceb3dc.css.map": "/regex360/static/css/main.cbceb3dc.css.map",
+    "main.29075dbd.js.map": "/regex360/static/js/main.29075dbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbceb3dc.css",
+    "static/js/main.29075dbd.js"
+  ]
+}

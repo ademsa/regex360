@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
-
 $color1: #004fff;
 $color2: #0acffe;
 $color3: #212121;
@@ -12,9 +10,8 @@ $primary: $color1;
 @import "../node_modules/bulma/sass/utilities/_all.sass";
 
 // Override variables
-$family-sans-serif: "Roboto", sans-serif;
 $link: $color3;
-$box-radius:1.2rem;
+$box-radius: 1.2rem;
 $navbar-background-color: transparent;
 $navbar-item-img-max-height: 5rem;
 $hero-body-padding: 2rem 1rem;
@@ -47,142 +44,177 @@ $tabs-link-active-border-bottom-color: $color1;
 @import "./../node_modules/bulma/sass/layout/_all.sass";
 
 // Overrides styles
-body{
-    min-height: 100vh;
-    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
-.navbar-brand, .navbar-tabs {
-    align-items: unset !important;
-    display: block !important;
+.navbar-brand,
+.navbar-tabs {
+  align-items: unset !important;
+  display: block !important;
 }
 
-.navbar-brand .navbar-item, .navbar-tabs .navbar-item {
-    align-items: unset !important;
-    display: block !important;
+.navbar-brand .navbar-item,
+.navbar-tabs .navbar-item {
+  align-items: unset !important;
+  display: block !important;
 }
 
-.navbar-brand .navbar-item a{
-    line-height: 0;
+.navbar-brand .navbar-item a {
+  line-height: 0;
 }
 
 .navbar-brand .navbar-item img {
-    height: 25px;
+  height: 25px;
 }
 
-.hero-main .hero-body{
-    margin-top: -84px;
+.hero-main .hero-body {
+  margin-top: -84px;
 }
 
-.tile a{
-    color:#fff;
+.tile a {
+  color: #fff;
 }
 
-.notification.is-rounded{
-    border-radius: 1.2rem;
+.notification.is-rounded {
+  border-radius: 1.2rem;
 }
 
 .box:not(:last-child) {
-    margin-bottom: unset;
+  margin-bottom: unset;
 }
 
 @media screen and (max-width: 768px) {
-    .button.is-large{
-        font-size: 1rem;
-    }
+  .button.is-large {
+    font-size: 1rem;
+  }
 }
 
 // Custom styles
-.incr-width-as-possible{
-    flex-grow: 1;
-    flex-shrink: 0;
+.incr-width-as-possible {
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
-.is-full-width{
-    width: 100%;
+.is-full-width {
+  width: 100%;
 }
 
-.is-full-height{
-    height: 100vh;
+.is-full-height {
+  height: 100vh;
 }
 
-.has-shadow{
-    box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02);
+.has-shadow {
+  box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1),
+    0 0px 0 1px rgba($scheme-invert, 0.02);
 }
 
-.hero-title{
-    font-size: 225px;
-    line-height: 260px;
-    font-weight: 900;
-    background-image: repeating-linear-gradient(42deg, $color2 0px, $color2 80px, $color1 200px, #fff 20px);
-    background-clip: text;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.hero-title {
+  font-size: 225px;
+  line-height: 260px;
+  font-weight: 900;
+  background-image: repeating-linear-gradient(
+    42deg,
+    $color2 0px,
+    $color2 80px,
+    $color1 200px,
+    #fff 20px
+  );
+  background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 1023px) {
-    .hero-title{
-        font-size: 125px;
-        line-height: 160px;
-    }
+  .hero-title {
+    font-size: 125px;
+    line-height: 160px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .hero-title{
-        font-size: 75px;
-        line-height: 110px;
-    }
+  .hero-title {
+    font-size: 75px;
+    line-height: 110px;
+  }
 }
 
 .footer .author {
-    height: 25px;
+  height: 25px;
 }
 
-.box-operations textarea, .box-operations input, .box-operations select {
-    border-color:#fff;
+.box-operations textarea,
+.box-operations input,
+.box-operations select {
+  border-color: #fff;
 }
 
-.box-operations textarea:hover, .box-operations input:hover, .box-operations select:hover {
-    border-color: $color1;
+.box-operations textarea:hover,
+.box-operations input:hover,
+.box-operations select:hover {
+  border-color: $color1;
 }
 
-.box-tab a:hover{
-    text-decoration: underline;
+.box-tab a:hover {
+  text-decoration: underline;
 }
 
-.bg-lg-ltr{
-    background: linear-gradient(-45deg, $color2 0%, $color1 100%);
-    color:#fff;
+.bg-lg-ltr {
+  background: linear-gradient(-45deg, $color2 0%, $color1 100%);
+  color: #fff;
 }
 
-.bg-lg-rtl{
-    background: linear-gradient(-45deg, $color1 0%, $color2 100%);
-    color:#fff;
+.bg-lg-rtl {
+  background: linear-gradient(-45deg, $color1 0%, $color2 100%);
+  color: #fff;
 }
 
-.bg-rlg{
-    background: repeating-linear-gradient(45deg, $color2 0px, $color2 80px, $color1 200px, #fff 20px);
-    color:#fff;
+.bg-rlg {
+  background: repeating-linear-gradient(
+    45deg,
+    $color2 0px,
+    $color2 80px,
+    $color1 200px,
+    #fff 20px
+  );
+  color: #fff;
 }
 
-.bg-rrg-tl{
-    background: repeating-radial-gradient(circle at 0 0,$color2 0px, $color1 100px);
-    color:#fff;
+.bg-rrg-tl {
+  background: repeating-radial-gradient(
+    circle at 0 0,
+    $color2 0px,
+    $color1 100px
+  );
+  color: #fff;
 }
 
-.bg-rrg-tr{
-    background: repeating-radial-gradient(circle at 100% 0, $color2 0px, $color1 100px);
-    color:#fff;
+.bg-rrg-tr {
+  background: repeating-radial-gradient(
+    circle at 100% 0,
+    $color2 0px,
+    $color1 100px
+  );
+  color: #fff;
 }
 
-.bg-rrg-bl{
-    background: repeating-radial-gradient(circle at 0 100%, $color2 0px, $color1 100px);
-    color:#fff;
+.bg-rrg-bl {
+  background: repeating-radial-gradient(
+    circle at 0 100%,
+    $color2 0px,
+    $color1 100px
+  );
+  color: #fff;
 }
 
-.bg-rrg-br{
-    background: repeating-radial-gradient(circle at 100% 100%, $color2 0px, $color1 100px);
-    color:#fff;
+.bg-rrg-br {
+  background: repeating-radial-gradient(
+    circle at 100% 100%,
+    $color2 0px,
+    $color1 100px
+  );
+  color: #fff;
 }

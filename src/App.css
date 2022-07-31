@@ -6547,6 +6547,17 @@ body {
 .navbar-brand .navbar-item img {
   height: 25px; }
 
+@media screen and (max-width: 1022px) {
+  .navbar-menu.is-active {
+    align-items: center;
+    display: flex; }
+  .navbar-end {
+    justify-content: center;
+    align-items: center;
+    display: flex; }
+  .navbar-item-link-text {
+    display: none; } }
+
 .hero-main .hero-body {
   margin-top: -84px; }
 
@@ -6640,3 +6651,7 @@ body {
 .bg-rrg-br {
   background: repeating-radial-gradient(circle at 100% 100%, #0acffe 0px, #004fff 100px);
   color: #fff; }
+
+@media screen and (min-width: 1024px) {
+  .section {
+    padding: 1rem 1rem; } }

@@ -69,6 +69,21 @@ body {
   height: 25px;
 }
 
+@include until(1023px) {
+  .navbar-menu.is-active {
+    align-items: center;
+    display: flex;
+  }
+  .navbar-end {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .navbar-item-link-text {
+    display: none;
+  }
+}
+
 .hero-main .hero-body {
   margin-top: -84px;
 }
@@ -217,4 +232,10 @@ body {
     $color1 100px
   );
   color: #fff;
+}
+
+@include desktop {
+  .section {
+    padding: 1rem 1rem;
+  }
 }

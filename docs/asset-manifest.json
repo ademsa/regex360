@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/regex360/static/css/main.cbceb3dc.css",
-    "main.js": "/regex360/static/js/main.29075dbd.js",
+    "main.css": "/regex360/static/css/main.281d0335.css",
+    "main.js": "/regex360/static/js/main.ad196175.js",
     "index.html": "/regex360/index.html",
-    "main.cbceb3dc.css.map": "/regex360/static/css/main.cbceb3dc.css.map",
-    "main.29075dbd.js.map": "/regex360/static/js/main.29075dbd.js.map"
+    "main.281d0335.css.map": "/regex360/static/css/main.281d0335.css.map",
+    "main.ad196175.js.map": "/regex360/static/js/main.ad196175.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbceb3dc.css",
-    "static/js/main.29075dbd.js"
+    "static/css/main.281d0335.css",
+    "static/js/main.ad196175.js"
   ]
 }

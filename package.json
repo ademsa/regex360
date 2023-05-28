@@ -1,7 +1,7 @@
 {
   "name": "RegEx360",
   "homepage": "https://ademsa.github.io/regex360",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
